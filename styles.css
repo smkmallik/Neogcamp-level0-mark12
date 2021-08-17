@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+:root {
+    --primary-color: #00BFA6;
+    --font-color: white
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header-container {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--font-color);
+}
+
+.angle-input {
+    font-family: inherit;
+    text-align: center;
+    padding: 1rem;
+    margin: 1.1rem 1rem; 
+}
+
+.angles-solution {
+    font-family: inherit;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.input-form {
+    font-family: inherit;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 1rem;
+}
+
+.options-container {
+    text-align: center;
+    padding: 3rem;
+    padding-top: 3rem;
+}
+
+.options-details-container {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.base-input {
+    font-family: inherit;
+    text-align: center;
+}
+
+.height-input {
+    font-family: inherit;
+    text-align: center
+}
+
+.sidea-input {
+    font-family: inherit;
+    text-align: center;
+}
+
+.sideb-input {
+    font-family: inherit;
+    text-align: center;
+}
+
+.sidec-input {
+    font-family: inherit;
+    text-align: center;
+}
+
+.angle-side-input {
+    font-family: inherit;
+    text-align: center;
+}
+
+.quiz-container {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    padding: 1rem;
+}
+
+.quiz-score {
+    text-align: center;
+}
+
+.quiz-comments {
+    padding: 2rem;
+    text-align: center;
+}
+
+.questions {
+    padding-top: 1rem;
+}
+
+.hypotenuse-container {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    padding: 6.45rem;
+    text-align: center;
+}
+
+
+.hypotenuse-input {
+    text-align: center;
+    font-family: inherit;
+    padding: 0.2rem;
+}
+
+button {
+    font-family: inherit;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0.5rem;
+    padding: 0.8rem 2rem;
+    font-size: medium;
+    border: none;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    cursor: pointer;
+
+}
+
+.options-link {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+}
+
+.option-three-formula {
+    padding-top: 1rem;
+}
+
+.option-two-formula {
+    padding-top: 1rem;
+}
+
+.option-first-formula {
+    padding-top: 1rem;
+}
+
+.calculate-hypotenuse-button {
+    padding: auto;
+    cursor: pointer;
+}
+
+.option-one-form {
+    display: block;
+}
+
+.option-two-form {
+    display: block;
+}
+
+.option-three-form {
+    display: block;
+}
+
+.option-results {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.questions {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;;
+}
+
+.option-buttons {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    color: var(--font-color);
+    bottom: 0;
+}
+
+.end-credits {
+    margin: 1rem;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+.options-list-container {
+    text-align: center;
+    margin: auto;
+    padding-top: 4rem;
+    font-weight: bolder;
+}
+
+li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-inline-start: 1rem;
+    
+}

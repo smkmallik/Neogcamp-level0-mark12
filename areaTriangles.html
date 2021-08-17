@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculate the area of triangle</title>
+</head>
+<body>
+    <header class="header-container">
+        Play with Triangles! 
+    </header>
+
+    <div class="options-list-container">
+        Select the options below:
+    </div>
+
+    <div class="options-container">
+        <button id="first-option-button" class="questions">If you have the length of base and height</button>
+        <button id="second-option-button" class="questions">If you have length of 3 sides</button>
+        <button id="third-option-button" class="questions">If you have length of 2 sides and angle</button>
+    </div>
+
+    <div class="options-details-container">
+        <div id="option-one-form">
+            <form class="option-one-form">
+                <h3>you have selected option-1</h3>
+
+                <p>Enter the base of the triangle</p>
+                <input id="base-input" class="base-input" type="number" placeholder="base"></input>
+
+                <p>Enter the height of the triangle<p>
+                <input id="height-input" class="height-input" type="number" placeholder="height"></input>
+            </form>
+
+            <div class="option-one-formula">Area=1/2 * base * height</div>
+
+            <button id="option-one-button" class="option-buttons">Calculate</button>
+
+            <div id="option-one-result" class="option-results"></div>
+        </div>
+
+        <div id="option-two-form">
+            <form id="option-two-form" class="option-two-form">
+                <h3>you have selected option-2</h3>
+
+                <p>Enter side a</p>
+                <input id="sidea-input" class="sidea-input" type="number" placeholder="Side A"></input>
+
+                <p>Enter side b</p>
+                <input id="sideb-input" class="sideb-input" type="number" placeholder="Side B"></input>
+
+                <p>Enter side c</p>
+                <input id="sidec-input" class="sidec-input" type="number" placeholder="Side C"></input>
+            </form>
+            <div class="option-two-formula">Area= √(s(s-a)(s-b)(s-c))</div>
+            <button id="option-two-button" class="option-buttons">Calculate</button>
+            <div id="option-two-result" class="option-results"></div>
+        </div>
+
+        <div id="option-three-form">
+            <form class="option-three-form">
+                <h3>you have selected option-3</h3>
+                <p>Enter side a</p>
+                <input id="sidea-input" class="sidea-input" type="number" placeholder="Side A"></input>
+                <p>Enter side b</p>
+                <input id="sideb-input" class="sideb-input" type="number" placeholder="Side B"></input>
+                <p>Enter Angle(degree)</p>
+                <input id="angle-side-input" class="angle-side-input" type="number" placeholder="Angle"></input>
+            </form>
+            <div class="option-three-formula">Area= 1/2*b*c*sin(A)</div>
+            <button id="option-three-button" class="option-buttons">Calculate</button>
+            <div id="option-three-result" class="option-results"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div >let's connect!</div>
+        <ul>
+            <li>
+                <a class="link" href="https://github.com/smkmallik">github</a>
+            </li>
+            <li>
+                <a class="link" href="https://twitter.com/soumik_72">twitter</a></li>
+            <li>
+                <a class="link" href="https://www.linkedin.com/in/smkmallik/">linkedin</a>    
+             </li>
+        </ul>
+        <div class="end-credits">Made with 💙 Soumik Mallik</div>
+    </footer>
+
+    <script src="/areaTriangles.js"></script>
+</body>
+</html>
