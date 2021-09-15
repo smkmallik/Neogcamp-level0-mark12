@@ -11,6 +11,8 @@ var heightInput = document.querySelector("#height-input");
 var sideAInput = document.querySelector("#sidea-input");
 var sideBInput = document.querySelector("#sideb-input");
 var sideCInput = document.querySelector("#sidec-input");
+var bSideInput = document.querySelector('#bSide-input');
+var cSideInput = document.querySelector('#cSide-input');
 var angleInput = document.querySelector("#angle-side-input");
 
 var optionOneButton = document.querySelector("#option-one-button");
@@ -71,9 +73,9 @@ thirdOptionButton.addEventListener('click', () => {
     displayOptionTwoForm.style.display = "none"; 
 
     optionThreeButton.addEventListener('click', () => {
-        var sideB = Number(sideBInput.value);
+        var sideB = Number(bSideInput.value);
         console.log(sideB);
-        var sideC = Number(sideCInput.value);
+        var sideC = Number(cSideInput.value);
         console.log(sideC);
         var angle = Number(angleInput.value);
         console.log(angle);
