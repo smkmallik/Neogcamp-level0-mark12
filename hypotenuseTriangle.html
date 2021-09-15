@@ -20,9 +20,9 @@
     <div class="hypotenuse-container">
         <form class="hypotenuse-form">
             <p>Enter the length of the base</p>
-            <input id="length-input" class="hypotenuse-input" type="number" placeholder="Length"></input>
+            <input id="length-input" class="hypotenuse-input" type="number" placeholder="Length"  min="0" oninput="validity.valid||(value='');"></input>
             <p>Enter the height of the triangle<p>
-            <input id="height-input" class="hypotenuse-input" type="number" placeholder="Height"></input>
+            <input id="height-input" class="hypotenuse-input" type="number" placeholder="Height"  min="0" oninput="validity.valid||(value='');"></input>
         </form>
 
         <button id="calculate-button" class="calculate-hypotenuse-button">Calculate</button>
