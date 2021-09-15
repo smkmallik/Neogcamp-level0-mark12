@@ -71,14 +71,14 @@ thirdOptionButton.addEventListener('click', () => {
     displayOptionTwoForm.style.display = "none"; 
 
     optionThreeButton.addEventListener('click', () => {
-        var sideA = Number(sideAInput.value);
-        console.log(sideA);
         var sideB = Number(sideBInput.value);
         console.log(sideB);
+        var sideC = Number(sideCInput.value);
+        console.log(sideC);
         var angle = Number(angleInput.value);
         console.log(angle);
 
-        var result = 0.5 * sideA * sideB * Math.sin(angle);
+        var result = 0.5 * sideB * sideC * Math.sin(angle);
         console.log(result);
 
         optionThreeResult.innerHTML = "Area: " + result.toFixed(2);

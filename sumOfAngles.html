@@ -18,13 +18,13 @@
 
     <div class="input-form">
         <input id="angle-a-input" class="angle-input" type="number"
-        placeholder="Enter angle a"></input>
+        placeholder="Enter angle a" min="0" oninput="validity.valid||(value='');"></input>
         <br>
         <input id="angle-b-input" class="angle-input" type="number"
-        placeholder="Enter angle b"></input>
+        placeholder="Enter angle b" min="0" oninput="validity.valid||(value='');"></input>
         <br>
         <input id="angle-c-input" class="angle-input" type="number"
-        placeholder="Enter angle c"></input>
+        placeholder="Enter angle c" min="0" oninput="validity.valid||(value='');"></input>
         <br>
         <button id="calculate-button" class="triangle-sum-calculate-button">Calculate</button>
     </div>

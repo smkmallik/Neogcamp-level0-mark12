@@ -28,10 +28,10 @@
                 <h3>you have selected option-1</h3>
 
                 <p>Enter the base of the triangle</p>
-                <input id="base-input" class="base-input" type="number" placeholder="base"></input>
+                <input id="base-input" class="base-input" type="number" placeholder="base" min="0" oninput="validity.valid||(value='');"></input>
 
                 <p>Enter the height of the triangle<p>
-                <input id="height-input" class="height-input" type="number" placeholder="height"></input>
+                <input id="height-input" class="height-input" type="number" placeholder="height" min="0" oninput="validity.valid||(value='');"></input>
             </form>
 
             <div class="option-one-formula">Area=1/2 * base * height</div>
@@ -46,13 +46,13 @@
                 <h3>you have selected option-2</h3>
 
                 <p>Enter side a</p>
-                <input id="sidea-input" class="sidea-input" type="number" placeholder="Side A"></input>
+                <input id="sidea-input" class="sidea-input" type="number" placeholder="Side A" min="0" oninput="validity.valid||(value='');"></input>
 
                 <p>Enter side b</p>
-                <input id="sideb-input" class="sideb-input" type="number" placeholder="Side B"></input>
+                <input id="sideb-input" class="sideb-input" type="number" placeholder="Side B" min="0" oninput="validity.valid||(value='');"></input>
 
                 <p>Enter side c</p>
-                <input id="sidec-input" class="sidec-input" type="number" placeholder="Side C"></input>
+                <input id="sidec-input" class="sidec-input" type="number" placeholder="Side C" min="0" oninput="validity.valid||(value='');"></input>
             </form>
             <div class="option-two-formula">Area= √(s(s-a)(s-b)(s-c))</div>
             <button id="option-two-button" class="option-buttons">Calculate</button>
@@ -62,12 +62,14 @@
         <div id="option-three-form">
             <form class="option-three-form">
                 <h3>you have selected option-3</h3>
-                <p>Enter side a</p>
-                <input id="sidea-input" class="sidea-input" type="number" placeholder="Side A"></input>
                 <p>Enter side b</p>
-                <input id="sideb-input" class="sideb-input" type="number" placeholder="Side B"></input>
+                <input id="sideb-input" class="sideb-input" type="number" placeholder="Side B" min="0" oninput="validity.valid||(value='');"></input>
+
+                <p>Enter side c</p>
+                <input id="sidec-input" class="sidec-input" type="number" placeholder="Side C" min="0" oninput="validity.valid||(value='');"></input>
+                
                 <p>Enter Angle(degree)</p>
-                <input id="angle-side-input" class="angle-side-input" type="number" placeholder="Angle"></input>
+                <input id="angle-side-input" class="angle-side-input" type="number" placeholder="Angle" min="0" oninput="validity.valid||(value='');"></input>
             </form>
             <div class="option-three-formula">Area= 1/2*b*c*sin(A)</div>
             <button id="option-three-button" class="option-buttons">Calculate</button>
