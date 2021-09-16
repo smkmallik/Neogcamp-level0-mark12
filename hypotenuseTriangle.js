@@ -14,6 +14,9 @@ function calculateHypotenuse() {
     var answer = Math.sqrt(Math.pow(length,2)+Math.pow(height,2));
     console.log(answer);
 
-    hypotenuseResult.innerHTML = "The result is " + answer.toFixed(2);
-
+    if (answer === 0) {
+        hypotenuseResult.innerHTML = "Enter valid values";
+    } else {
+        hypotenuseResult.innerHTML = "The result is " + answer.toFixed(2);
+    }
 }

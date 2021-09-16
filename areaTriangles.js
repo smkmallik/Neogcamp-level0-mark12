@@ -40,7 +40,11 @@ firstOptionButton.addEventListener('click', () =>{
         var area = 0.5 * base * height;
         console.log("Area: " + area);
 
-        optionOneResult.innerHTML = "Area: " + area.toFixed(2);
+        if(area === 0) {
+            optionOneResult.innerHTML = 'Enter valid value';
+        } else {
+            optionOneResult.innerHTML = "Area: " + area.toFixed(2);
+        }
     })
 })
 
@@ -61,9 +65,12 @@ secondOptionButton.addEventListener('click', () => {
         console.log("S: " + s);
 
         var result = Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+        if(result === 0) {
+            optionTwoResult.innerHTML = "Enter valid values";
+        } else {
+            optionTwoResult.innerHTML = "Area: " + result.toFixed(2);
+        }
         console.log("Result: " + result);
-
-        optionTwoResult.innerHTML = "Area: " + result.toFixed(2);
     })
 })
 
@@ -83,8 +90,11 @@ thirdOptionButton.addEventListener('click', () => {
         var result = 0.5 * sideB * sideC * Math.sin(angle);
         console.log(result);
 
-        optionThreeResult.innerHTML = "Area: " + result.toFixed(2);
-
+        if(result === 0) {
+            optionThreeResult.innerHTML = 'Enter valid values';
+        } else {
+            optionThreeResult.innerHTML = "Area: " + result.toFixed(2);
+        }
     })
 })
 
