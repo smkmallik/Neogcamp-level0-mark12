@@ -41,7 +41,7 @@ firstOptionButton.addEventListener('click', () =>{
         console.log("Area: " + area);
 
         if(area === 0) {
-            optionOneResult.innerHTML = 'Enter valid value';
+            optionOneResult.innerHTML = 'Enter valid value (The result must be 0';
         } else {
             optionOneResult.innerHTML = "Area: " + area.toFixed(2);
         }
@@ -66,7 +66,7 @@ secondOptionButton.addEventListener('click', () => {
 
         var result = Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
         if(result === 0) {
-            optionTwoResult.innerHTML = "Enter valid values";
+            optionTwoResult.innerHTML = "Enter valid values (The result must be 0)";
         } else {
             optionTwoResult.innerHTML = "Area: " + result.toFixed(2);
         }
@@ -91,7 +91,7 @@ thirdOptionButton.addEventListener('click', () => {
         console.log(result);
 
         if(result === 0) {
-            optionThreeResult.innerHTML = 'Enter valid values';
+            optionThreeResult.innerHTML = 'Enter valid values (The result must be 0)';
         } else {
             optionThreeResult.innerHTML = "Area: " + result.toFixed(2);
         }
