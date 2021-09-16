@@ -41,7 +41,7 @@ firstOptionButton.addEventListener('click', () =>{
         console.log("Area: " + area);
 
         if(area === 0) {
-            optionOneResult.innerHTML = 'Enter valid value (The result must be 0';
+            optionOneResult.innerHTML = 'Enter valid value (The result must be 0)';
         } else {
             optionOneResult.innerHTML = "Area: " + area.toFixed(2);
         }
